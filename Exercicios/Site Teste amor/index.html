@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escritório de advocacia especializado em diversas áreas do direito.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Luana Dias Associados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Dra Luana Dias</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#advogados">Advogada</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home" class="home">
+        <h2>Bem-vindo ao Escritório de Advocacia da Luana Dias</h2>
+        <p>Estamos prontos para oferecer soluções jurídicas personalizadas para suas necessidades. Conte com nossa experiência!</p>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li><h3>Consultoria Jurídica</h3><p>Aconselhamento jurídico especializado em diversas áreas.</p></li>
+            <li><h3>Assessoria Empresarial</h3><p>Auxílio em questões legais empresariais e contratuais.</p></li>
+            <li><h3>Defesa Criminal</h3><p>Defesa de acusados em processos criminais.</p></li>
+            <li><h3>Direito de Família</h3><p>Consultoria e defesa em casos de separação, divórcio, e guarda de filhos.</p></li>
+        </ul>
+    </section>
+
+    <!-- Seção Advogados -->
+    <section id="advogados" class="advogados">
+        <h2>Informacoes.</h2>
+        <div class="advogado">
+            <img src="foto amor.png" alt="Foto do advogado">
+            <h3>Dra. Luana Dias</h3>
+            <p>Especialista em Direito Penal e Direito de Família.</p>
+        </div>
+        
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form id="form-contato" action="submit_form.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+     
+    <footer style="background-color: rgb(197, 197, 197);">
+        <p>&copy; 2025 Advocacia LCD - Todos os direitos reservados.</p>
+        <p>Endereço: Rua Travessa Xango, 21 - Carapicuiba <br>Sao paulo/Zona Oeste. 
+        <h5>Rede Social</h5>
+        <p><a href="https://www.instagram.com/luuaniinhaa_/" target="_blank" rel="external" style="background-color: rgba(255, 255, 255, 0.836);">Instagram</a></p>
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
